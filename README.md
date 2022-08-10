@@ -3,7 +3,10 @@
 A Pen created on CodePen.io.
 
 網頁預覽：
-Original URL: [https://codepen.io/april808/pen/PoRKWoa](https://codepen.io/april808/pen/PoRKWoa).
+
+1. CodePen URL: [https://codepen.io/april808/pen/PoRKWoa](https://codepen.io/april808/pen/PoRKWoa).
+1. GitHub: [https://april808.github.io/Weather-Box/](https://april808.github.io/Weather-Box/)
+
 
 網頁說明：
 
