@@ -309,7 +309,7 @@ label {
 
 .bigsun {
   opacity: 0;
-  transition: 0.4s;
+  transition: all 0.4s;
 }
 
 .moon, .text_area, future7, top {
@@ -357,7 +357,7 @@ label {
   left: calc(100% - 100px - (20px));
 }
 #switch_night:checked + .top .bigsun {
-  top: 20px;
+  top: 1.3em;
   animation: minisun 5s infinite;
 }
 
