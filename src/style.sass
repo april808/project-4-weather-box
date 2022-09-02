@@ -263,7 +263,6 @@ label
         
 // 點擊後的互動
 .bigsun
-  opacity: 0
   transition: all .4s
 .moon,.text_area,future7,top
   transition: .5s
@@ -296,8 +295,12 @@ label
     color: $color_blue_start
     left: calc(100% - 100px - (20px))
   .bigsun
+    opacity: 1
     top: 1.3em
+    background-color: white
+    color: darken($color_yellow_end,10)
     animation: minisun 5s infinite
+    animation-fill-mode: backwards
 
     
 
@@ -305,12 +308,14 @@ label
 .bigsun
     +size(68px,68px)
     border-radius: 50%
-    box-shadow: 0 0 8px #fff
+    box-shadow: 0 0 8px white
     position: absolute 
-    background-color: #fff
-    color: darken($color_yellow_end,10)
+    background-color: transparent
+    color: transparent
     left: 40px
-    top: -5em
+    top: -6em
+    opacity: 1
+  
     &::before
       content:""
       width: 20px

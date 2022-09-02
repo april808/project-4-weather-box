@@ -308,7 +308,6 @@ label {
 }
 
 .bigsun {
-  opacity: 0;
   transition: all 0.4s;
 }
 
@@ -357,20 +356,25 @@ label {
   left: calc(100% - 100px - (20px));
 }
 #switch_night:checked + .top .bigsun {
+  opacity: 1;
   top: 1.3em;
+  background-color: white;
+  color: #fea363;
   animation: minisun 5s infinite;
+  animation-fill-mode: backwards;
 }
 
 .bigsun {
   width: 68px;
   height: 68px;
   border-radius: 50%;
-  box-shadow: 0 0 8px #fff;
+  box-shadow: 0 0 8px white;
   position: absolute;
-  background-color: #fff;
-  color: #fea363;
+  background-color: transparent;
+  color: transparent;
   left: 40px;
-  top: -5em;
+  top: -6em;
+  opacity: 1;
 }
 .bigsun::before {
   content: "";
