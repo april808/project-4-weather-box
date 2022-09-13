@@ -1,11 +1,11 @@
-# Weather-Box - 動態互動天氣盒子
+# Project 4 - Weather-Box - 動態互動天氣盒子
 
 A Pen created on CodePen.io.
 
 預覽：
 
 1. CodePen URL: [https://codepen.io/april808/pen/PoRKWoa](https://codepen.io/april808/pen/PoRKWoa).
-1. GitHub: [https://april808.github.io/weather-box/dist/index.html](https://april808.github.io/weather-box/dist/index.html)
+1. GitHub: [https://april808.github.io/project-4-weather-box/dist/index.html](https://april808.github.io/project-4-weather-box/dist/index.html)
 
 說明：
 
